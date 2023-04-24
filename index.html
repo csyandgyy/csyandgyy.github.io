@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel='stylesheet' href='clock1.css' />
-    <title>clock</title>
+    <link rel='stylesheet' href='ourday.css' />
+    <title>our day</title>
 </head>
 <body>
+<!-- clock -->
 <div class="clock" id="clock">
     <div class="origin"></div>
     <div class="clock-line hour-line" id="hour-line"></div>
@@ -18,6 +19,30 @@
         <div class="time" id="second-time"></div>
     </div>
 </div>
-<script type='text/javascript' src='clock1.js'></script>
+<!-- 空白占位行 -->
+<p style="height: 100px;"></p>
+
+<!-- flip timer -->
+<div class="clock_flip" id="clock_flip">
+    <div class="flip down">
+        <div class="digital front number0"></div>
+        <div class="digital back number1"></div>
+    </div>
+    <div class="flip down">
+        <div class="digital front number0"></div>
+        <div class="digital back number1"></div>
+    </div>
+    <div class="flip down">
+        <div class="digital front number0"></div>
+        <div class="digital back number1"></div>
+    </div>
+    <div class="flip down">
+        <div class="digital front number0"></div>
+        <div class="digital back number1"></div>
+    </div>
+    <em>&emsp13; days passed</em>
+</div>
+<script type='text/javascript' src='ourday.js'>
+</script>
 </body>
 </html>
